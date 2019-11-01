@@ -1,4 +1,4 @@
 import os
 
-DEBUG = False
+DEBUG = True
 ADMINS = frozenset([os.environ.get('ADMIN_EMAIL')])
